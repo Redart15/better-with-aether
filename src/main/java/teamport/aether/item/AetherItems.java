@@ -264,13 +264,13 @@ public final class AetherItems {
 
 
         KEY_BRONZE = new Item("key.bronze", itemKey("key_bronze"), itemID("KEY_BRONZE"))
-            .withTags(ItemTags.IS_FIRE_PROOF, ItemTags.IS_BLAST_PROOF);
+            .withTags(ItemTags.IS_INDESTRUCTIBLE, ItemTags.IS_PERSISTENT);
 
         KEY_SILVER = new Item("key.silver", itemKey("key_silver"), itemID("KEY_SILVER"))
-            .withTags(ItemTags.IS_FIRE_PROOF, ItemTags.IS_BLAST_PROOF);
+            .withTags(ItemTags.IS_INDESTRUCTIBLE, ItemTags.IS_PERSISTENT);
 
         KEY_GOLD = new Item("key.gold", itemKey("key_gold"), itemID("KEY_GOLD"))
-            .withTags(ItemTags.IS_FIRE_PROOF, ItemTags.IS_BLAST_PROOF);
+            .withTags(ItemTags.IS_INDESTRUCTIBLE, ItemTags.IS_PERSISTENT);
 
 
         EGG_MOA_BLUE = new Item("egg.moa.blue", itemKey("egg_moa_blue"), itemID("EGG_MOA_BLUE"))
